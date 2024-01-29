@@ -1,0 +1,60 @@
+.red{
+    stroke: red;
+  }
+  .gray {
+    stroke: gray;
+  }
+  .yellow {
+    fill: yellow;
+  }
+  .green {
+    fill: green;
+  }
+body{
+  background-color: black;
+}
+.header
+{
+  text-align: center;
+  /* border: 2px solid red; */
+  font-size: 1.9rem;
+  color: white;
+  margin-bottom: 20px;
+  color: violet;
+}
+ .info
+{
+  font-size: 1.4rem;
+  text-align: center;
+  font-weight: 600;
+  margin: 9px;
+  color: whitesmoke;
+}
+.widget-box{
+  /* height: 600px; */
+  padding: 20px;
+  /* background-color: rgb(0, 0, 0); */
+}
+.cont{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 8px;
+} 
+.container{
+  display: grid;
+  /* border: 2px solid red; */
+  padding: 13px;
+  gap: 5px;
+  grid-template-columns: repeat(2,1fr);
+}
+.container div h3{
+  /* text-align: center; */
+  margin-bottom: 3px;
+  color: rgb(249, 255, 250);
+  font-weight: bold;
+}
+.container div p{
+  color: rgb(191, 185, 185);
+}

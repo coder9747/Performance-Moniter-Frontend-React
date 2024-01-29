@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --primary-color:#000000;
+  --text-color:#689cfd;
+}
+
+.main-body{
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--primary-color);
+}
+.heading{
+  text-align: center;
+  padding-top: 20px;
+  font-size: 3rem;
+  color:var(--text-color);
+}
+
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+}

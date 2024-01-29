@@ -27,7 +27,7 @@ const Widget = ({
   }, []);
   return (
     <div className="widget-box">
-      <h3 className="header">{user.toUpperCase()}</h3>
+      <h3 className="header">{user?.toUpperCase()}</h3>
       <p className="info">CPU</p>
       <CircularProgressbar
         value={cpuPercentage}
@@ -80,9 +80,9 @@ const Widget = ({
         </div>
         <div>
           <h3>Memory Info</h3>
-          <p>Total : {memInfo.totalGb} GB</p>
-          <p>Used : {memInfo.usedGb} GB</p>
-          <p>Free : {memInfo.freeGb} GB</p>
+          <p>Total : {memInfo?.totalGb} GB</p>
+          <p>Used : {memInfo?.usedGb} GB</p>
+          <p>Free : {memInfo?.freeGb} GB</p>
         </div>
       </div>
     </div>
